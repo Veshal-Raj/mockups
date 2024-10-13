@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2bf;
+}
+
+.card-container {
+    border-radius: 25px;
+    background-color: #ffff;
+    width: 90%;
+    max-width: 400px;
+    height: fit-content;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 200px;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23993250" fill-opacity="1" d="M0,128L34.3,138.7C68.6,149,137,171,206,197.3C274.3,224,343,256,411,234.7C480,213,549,139,617,133.3C685.7,128,754,192,823,224C891.4,256,960,256,1029,224C1097.1,192,1166,128,1234,90.7C1302.9,53,1371,43,1406,37.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 25px;
+}
+
+.profile-img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+}
+
+.username {
+    font-size: 25px;
+}
+
+.username-id {
+    font-size: 13px;
+}
+
+.card-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-socials i {
+    font-size: 20px;
+}
+
+.card-description {
+    display: inherit;
+}
+
+.card-description p {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px ;
+}
+
+.follow-btn, .message-btn {
+    border-radius: 25px;
+    padding: 10px 40px;
+    border: 1px solid #e03f8a;
+}
+
+.follow-btn {
+    background-color: #e03f8a;
+    color: #ffff;
+}
+
+.message-btn {
+    background-color: #ffff;
+    color: #e03f8a;
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        width: 50%; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-container {
+        width: 25%; 
+    }
+}
