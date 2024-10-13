@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #ffe3fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+.otp-container {
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 25px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.otp-container-header {
+    margin: 20px 0px;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.otp-input:focus {
+    outline: none;
+    border-color: #4848fa;
+    box-shadow: 0 0 5px rgba(72, 72, 250, 0.2);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 20px;
+}
+
+.cancel, .verify {
+    padding: 7px 40px;
+}
+
+.cancel {
+    background-color: #ffff;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+.verify {
+    background-color: #4848fa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.resent-txt {
+    margin: 20px;
+}
+
+/* For Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    padding: 5px;
+}
