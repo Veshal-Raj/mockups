@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    color: #808080;
+}
+
+.container {
+    background-image: url('https://img.freepik.com/free-vector/dark-blue-polygonal-background_23-2148136853.jpg?t=st=1728828420~exp=1728832020~hmac=8e5e7e4b9d68c9de0c41a337423391015947420f165e776f9ade876b8cd72b06&w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    height: 100vh;
+    flex: 1;
+    justify-content: center;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.login-form {
+    background-color: #ffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 25rem;
+    margin: 4rem;
+}
+
+.login-form input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #808080a4;
+}
+
+.communication-methods {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.login-form textarea {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #808080a4;
+    min-height: 100px;
+}
+
+.login-form textarea::placeholder {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    color: #808080;
+}
+
+.submit-btn {
+    background-color: #f850a1;
+    color: #ffff;
+    border-radius: 25px;
+    padding:10px 30px;   
+    border: none;
+    margin-top: 3rem;
+}
+
+.left-section {
+    color: #ffff;
+    padding: 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+
+@media (min-width: 1200px) {
+    .content {
+       padding: 5rem; 
+    }
+}

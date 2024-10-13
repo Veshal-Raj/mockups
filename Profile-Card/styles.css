@@ -46,10 +46,13 @@ body {
 
 .username {
     font-size: 25px;
+    letter-spacing: 3px;
 }
 
 .username-id {
     font-size: 13px;
+    font-weight: lighter;
+    color: #a8a8a8;
 }
 
 .card-socials {
